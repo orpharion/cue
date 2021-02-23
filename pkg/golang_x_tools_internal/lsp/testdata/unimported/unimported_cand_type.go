@@ -1,0 +1,16 @@
+package unimported
+
+import (
+	_ "context"
+
+	"cuelang.org/go/pkg/golang_x_tools_internal/lsp/baz"
+	_ "cuelang.org/go/pkg/golang_x_tools_internal/lsp/signature" // provide type information for unimported completions in the other file
+)
+
+func _() {
+	foo.StructFoo{} //@item(litFooStructFoo, "foo.StructFoo{}", "struct{...}", "struct")
+
+	// We get the literal completion for "foo.StructFoo{}" even though we haven't
+	// imported "foo" yet.
+	baz.FooStruct = f //@snippet(" //", litFooStructFoo, "foo.StructFoo{$0\\}", "foo.StructFoo{$0\\}")
+}

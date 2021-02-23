@@ -1,0 +1,9 @@
+package badstmt
+
+import (
+	"cuelang.org/go/pkg/lsp/foo"
+)
+
+func _() {
+	defer func() { foo. } //@rank(" }", Foo)
+}

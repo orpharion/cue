@@ -1,0 +1,9 @@
+package badstmt
+
+import (
+	"cuelang.org/go/pkg/lsp/foo"
+)
+
+func _() {
+	go foo. //@rank(" //", Foo, IntFoo),snippet(" //", Foo, "Foo()", "Foo()")
+}
