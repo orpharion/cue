@@ -176,6 +176,9 @@ var tokens = [...]string{
 	LET: "let",
 }
 
+// ado
+var Tokens = tokens
+
 // String returns the string corresponding to the token tok.
 // For operators, delimiters, and keywords the string is the actual
 // token character sequence (e.g., for the token ADD, the string is

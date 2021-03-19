@@ -13,8 +13,6 @@ package main // import "golang.org/x/tools/gopls"
 
 import (
 	"context"
-	"os"
-
 	"cuelang.org/go/cmd/cuels/internal/hooks"
 	"cuelang.org/go/pkg/lsp/cmd"
 	tool "cuelang.org/go/pkg/lsp_tool"
@@ -22,5 +20,5 @@ import (
 
 func main() {
 	ctx := context.Background()
-	tool.Main(ctx, cmd.New("cuels", "", nil, hooks.Options), os.Args[1:])
+	tool.Main(ctx, cmd.New("cuels", "", nil, hooks.Options), []string{"-port", "37845"})
 }

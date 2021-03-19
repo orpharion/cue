@@ -96,7 +96,7 @@ func (s *StreamServer) ServeStream(ctx context.Context, conn jsonrpc2.Conn) erro
 // separate gopls daemon. In these cases, we still want the forwarder gopls to
 // be instrumented with telemetry, and want to be able to in some cases hijack
 // the jsonrpc2 connection with the daemon.
-type Forwarder struct {
+type Forwarder struct {x
 	network, addr string
 
 	// goplsPath is the path to the current executing gopls binary.

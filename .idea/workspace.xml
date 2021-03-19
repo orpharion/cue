@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fadd79b9-dc94-43a0-b0fe-fb020945b3c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cmd/cuels/internal/doc.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/cuels/vscode/cmd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/cuels/vscode/serve.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/cuels/vscode/vscode.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmd/cuels/vscode/vscode_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/advanced.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/analyzers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/command-line.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/commands.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/contributing.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/daemon.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/design/design.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/design/implementation.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/design/integrating.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/emacs.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/features.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/generate.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/generate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/settings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/subl.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/troubleshooting.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/vim.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/doc/workspace.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/artifacts.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/cloudbuild.harness.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/cloudbuild.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/run_local.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/govim/run_tests_for_cloudbuild.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/parse/parse.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/parse/protocol.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/parse/rlog.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/replay/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/integration/replay/main.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/analysis.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/analysis_115.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/diff.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/diff_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/gen-licenses.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/hooks.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/licenses.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/hooks/licenses_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/bench/bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/bench/completion_bench_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/bench/stress_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/codelens/codelens_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/completion/completion_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/diagnostics/diagnostics_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/doc.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/env.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/env_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/expectation.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/configuration_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/definition_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/failures_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/fix_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/formatting_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/generate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/imports_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/link_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/misc_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/references_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/shared_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/misc/vendor_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/modfile/modfile_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/regtest.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/runner.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/watch/watch_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/workspace/workspace_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/internal/regtest/wrappers.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/cmd/cuels/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/release/release.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/test/debug/debug_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmd/cuels/test/gopls_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cue/token/token.go" beforeDir="false" afterPath="$PROJECT_DIR$/cue/token/token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/lsp/lsprpc/lsprpc.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/lsp/lsprpc/lsprpc.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/snap/go/current" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProjectId" id="1otpuQlzjeU4LWP0ucHLyVLsEDE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../golang/vscode-go" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/cmd/cuels" />
+      <recent name="$PROJECT_DIR$/pkg/cuels/internal/hooks" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build cuelang.org/go/cmd/cuels">
+    <configuration name="go build cuelang.org/go/cmd/cuels" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="cue" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/cmd/cuels/main.go" />
+      <package value="cuelang.org/go/cmd/cuels" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="vscode_test.go" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="cue" />
+      <working_directory value="$PROJECT_DIR$/cmd/cuels/vscode" />
+      <framework value="gotest" />
+      <kind value="FILE" />
+      <package value="cuelang.org/go" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/cmd/cuels/vscode/vscode_test.go" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build cuelang.org/go/cmd/cuels" />
+        <item itemvalue="Go Test.vscode_test.go" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1815" height="663" key="DebuggerActiveHint" timestamp="1614312647241">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1815" height="663" key="DebuggerActiveHint/0.27.3840.2133@0.27.3840.2133" timestamp="1614312647241" />
+    <state x="1567" y="794" key="FileChooserDialogImpl" timestamp="1614301476551">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1567" y="794" key="FileChooserDialogImpl/0.27.3840.2133@0.27.3840.2133" timestamp="1614301476551" />
+    <state width="1858" height="393" key="GridCell.Tab.0.bottom" timestamp="1615276407203">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1858" height="393" key="GridCell.Tab.0.bottom/0.27.3840.2133@0.27.3840.2133" timestamp="1615276407203" />
+    <state width="1858" height="393" key="GridCell.Tab.0.center" timestamp="1615276407202">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1858" height="393" key="GridCell.Tab.0.center/0.27.3840.2133@0.27.3840.2133" timestamp="1615276407202" />
+    <state width="1858" height="393" key="GridCell.Tab.0.left" timestamp="1615276407202">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1858" height="393" key="GridCell.Tab.0.left/0.27.3840.2133@0.27.3840.2133" timestamp="1615276407202" />
+    <state width="1858" height="393" key="GridCell.Tab.0.right" timestamp="1615276407202">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1858" height="393" key="GridCell.Tab.0.right/0.27.3840.2133@0.27.3840.2133" timestamp="1615276407202" />
+    <state width="1849" height="1066" key="XDebugger.FullValuePopup" timestamp="1615262035330">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state width="1849" height="1066" key="XDebugger.FullValuePopup/0.27.3840.2133@0.27.3840.2133" timestamp="1615262035330" />
+    <state x="1498" y="988" width="702" height="217" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615262267306">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="1498" y="988" width="702" height="217" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.3840.2133@0.27.3840.2133" timestamp="1615262267306" />
+    <state x="824" y="743" width="1034" height="700" key="find.popup" timestamp="1615262255825">
+      <screen x="0" y="27" width="3840" height="2133" />
+    </state>
+    <state x="824" y="743" width="1034" height="700" key="find.popup/0.27.3840.2133@0.27.3840.2133" timestamp="1615262255825" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/lsp_tool/tool.go</url>
+          <line>151</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/pkg/lsp/lsprpc/lsprpc.go</url>
+          <line>509</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

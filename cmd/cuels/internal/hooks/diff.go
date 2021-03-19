@@ -7,9 +7,9 @@ package hooks
 import (
 	"fmt"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
-	"cuelang.org/go/pkg/lsp/diff"
 	"cuelang.org/go/pkg/golang_x_tools_internal/span"
+	"cuelang.org/go/pkg/lsp/diff"
+	"github.com/sergi/go-diff/diffmatchpatch"
 )
 
 func ComputeEdits(uri span.URI, before, after string) (edits []diff.TextEdit, err error) {
